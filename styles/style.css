@@ -42,11 +42,34 @@ blockquote {
   align-items: flex-start;
 }
 
+.header_logo {
+display: block;
+width: 78px;
+}
+
+.header_logo-image {
+  width: 100%;
+}
+
+.header_menu {
+  font-size: 16px;
+  line-height: 120%;
+
+}
+
 .header_menu-list {
   display: flex;
   flex-direction: column;
   gap: 12px;
   list-style: none;
+}
+
+.header_menu-item {
+
+}
+
+.header_menu-item_aktive {
+
 }
 
 .header_menu-link {
@@ -55,26 +78,68 @@ blockquote {
   line-height: 1.2;
 }
 
-.header_logo {
-
-}
-
-.header_logo-image {
-  width: 78px;
-}
-
-.nav {
-  font-size: 16px;
-  line-height: 120%;
-
-}
-
 .cover {
   padding: 7px 24px 32px 20px;
+  background-image: url(../images/cover.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 95% auto
+}
+
+.cover_title {
+  min-height: 258px;
+  width: 100%;
+  color: #fff;
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align:right
 }
 
 .intro {
   padding: 0 20px 38px;
+  }
+
+.intro_heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  color: #CCCCCC;
+  font-size: 16px;
+}
+
+.intro_title {
+  font-weight: 400;
+  line-height: 120%;
+  font-size: 16px;
+}
+
+.intro_date {
+  line-height: 120%;
+  white-space: nowrap;
+  font-size: 16px;
+}
+
+.intro_main-text {
+  display: flex;
+  flex-direction:column;
+  gap: 24px;
+  margin-top: 24px;
+  color: #F5F5F5;
+  font-size: 16px;
+  line-height: 135%;
 }
 
 .reasons {
