@@ -146,6 +146,36 @@ width: 78px;
   padding: 40px 20px;
 }
 
+.content-section_subtitle {
+  margin-bottom: 32px;
+  font-family: 'EB Garamond', serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.15;
+}
+
+.content-section__introduction {
+  margin: 0 0 32px;
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  line-height: 1.35;
+  padding-left: 16px;
+}
+
+/*.content-section__list-item {
+  
+}*/
+
+.content-section__list-accent {
+  font-weight: 700;
+}
+
 .how-to {
   padding: 40px 20px 60px;
 }
